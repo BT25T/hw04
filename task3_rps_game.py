@@ -9,7 +9,7 @@ com_win = 0
 
 while True:
     player = str(input("rock, paper, scissors or q to quit: ")).lower()
-    if player == "quit": break
+    if player == "q" or player == "quit": break
     if player not in pao:
         print(f"Invalid choice")
         continue
