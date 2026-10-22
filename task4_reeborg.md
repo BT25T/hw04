@@ -1,5 +1,5 @@
-__Hurdle #3__
-```
+# Hurdle #3
+```python
 def turn_right():
     for i in range(3):
         turn_left()
@@ -24,8 +24,8 @@ while at_goal()==False:
         move()
 ```
 
-__Hurdle #4__
-```
+# Hurdle #4
+```python
 def turn_right():
     for i in range(3):
         turn_left()
