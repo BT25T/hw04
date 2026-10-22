@@ -1,7 +1,9 @@
 num = int(input("Enter a number: "))
-s_num = str(num)
-n = len(s_num)
 count = 0
-for i in range(n):
-    count += int(s_num[i])
-print(f"Digit sum: {count}")
+if num < 0 :
+    print("Invaild number")
+else:
+    while num != 0:
+        count += num%10
+        num = num // 10
+    print(f"Digit sum: {count}")
