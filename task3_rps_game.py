@@ -1,8 +1,5 @@
 import random
 
-pao = ["rock", "paper", "scissors"]
-computer = pao[random.randint(0,2)]
-
 draw = 0
 win = 0
 com_win = 0
@@ -10,6 +7,8 @@ com_win = 0
 while True:
     player = str(input("rock, paper, scissors or q to quit: ")).lower()
     if player == "q" or player == "quit": break
+    pao = ["rock", "paper", "scissors"]
+    computer = pao[random.randint(0,2)]
     if player not in pao:
         print(f"Invalid choice")
         continue
